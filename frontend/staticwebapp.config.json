@@ -7,6 +7,14 @@
         {
             "route": "/authenticated/*",
             "allowedRoles": [ "authenticated" ]
+        },
+        {
+            "route": "/producta/*",
+            "allowedRoles": [ "product-a-owner" ]
+        },
+        {
+            "route": "/documentation/*",
+            "allowedRoles": ["general-reader"]
         }
     ],
     "auth": {
