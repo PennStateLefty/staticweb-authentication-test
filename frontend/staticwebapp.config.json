@@ -10,11 +10,11 @@
         },
         {
             "route": "/producta/*",
-            "allowedRoles": [ "product-a-owner" ]
+            "allowedRoles": [ "productaowner" ]
         },
         {
             "route": "/documentation/*",
-            "allowedRoles": ["general-reader"]
+            "allowedRoles": [ "documentreader" ]
         }
     ],
     "auth": {
